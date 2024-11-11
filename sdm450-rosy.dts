@@ -1,0 +1,14 @@
+/dts-v1/;
+
+#include "qcom/sdm450.dtsi"
+#include "qcom/msm8953-qrd-sku3.dtsi"
+
+#include "rosy/rosy.dtsi"
+
+/ {
+	model = "Qualcomm Technologies, Inc. SDM450 + PMI8940 QRD";
+	compatible = "qcom,sdm450-qrd", "qcom,sdm450", "qcom,qrd";
+	qcom,board-id = <0x1000b 1>;
+	qcom,pmic-id = <0x010016 0x020040 0x0 0x0>;
+	qcom,pmic-name = "PMI8940";
+};
