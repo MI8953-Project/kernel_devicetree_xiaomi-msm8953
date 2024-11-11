@@ -1,1 +1,2 @@
 #include "battery.dtsi"
+#include "display.dtsi"
